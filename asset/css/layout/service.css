@@ -1,0 +1,32 @@
+.right-section{max-width:1180px; padding-left:5rem;}
+.right-section main h2{font-size:3.6rem; font-family:"NSG M"; color:#2f36bb; margin:0; margin-bottom:5rem;}
+.content01 .service-content{}
+.content01 .service-content p{font-size:3.2rem;}
+.content01 .service-content span{font-size:1.8rem; color:#8f8f8f;}
+
+.dashed-pos{position:relative;}
+.dashed-pos:after{
+    content: '';
+    position:absolute; top:90px; left:100%;
+    width:188px;
+    height:5px;
+    background-image: url(../../img/layout/dashed-right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+}
+
+.service-content{
+    position: absolute;
+    left:calc(100% + 204px);
+    top:80px;
+    width:100%;
+}
+
+.service-content > p{font-size:1.8rem; font-family: "NSG M";}
+.service-content > span{font-size:1.8rem; display:block;}
+
+.content03{display:flex;}
+.content03 p{font-size:1.8rem;}
+.content03 .content-left .position-absolute{left:calc(100% - 206px);}
+.content03 .content-right .position-absolute{left:0;}

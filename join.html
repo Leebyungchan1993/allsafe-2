@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모두의방역-브로슈어</title>
+
+    <!-- 공통 CSS -->
+    <link rel="stylesheet" href="/asset/css/common/common.css" type="text/css">
+    <link rel="stylesheet" href="/asset/css/common/button.css" type="text/css">
+    <link rel="stylesheet" href="/asset/css/common/layout.css" type="text/css">
+    <link rel="stylesheet" href="/asset/css/common/style.css" type="text/css">
+
+    <!-- 개별 CSS -->
+    <link rel="stylesheet" href="/asset/css/layout/join.css" type="text/css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Plugin -->
+    <link rel="stylesheet" href="/asset/css/plugin/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/asset/css/plugin/slick.css" type="text/css">
+
+    <!-- 공통 JS -->
+    <script src="asset/js/lib/jquery.js"></script>
+    <script src="asset/js/plugin/jquery-ui.min.js"></script>
+    <script src="asset/js/plugin/jquery.nice-select.js"></script>
+    <script src="asset/js/plugin/slick.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="wrap">
+        <aside>
+            <div class="left-section">
+                <div class="left-top">
+                    <p class="f-size14">우리동네 방역업체 알리미</p>
+                    <p class="f-size16">모두의 방역 partners</p>
+                    <a href="#;" class="mt-30 mb-50">
+                        <img src="/asset/img/layout/info-visual.png" alt="">
+                        <p class="f-size16 mt-10">회원가입</p>
+                    </a>
+                </div>
+
+                <nav>
+                    <div class="left-nav">
+                        <ul>
+                            <li><a href="#;"><i class="nav-icon01"></i>모두의 방역 소개</a></li>
+                            <li><a href="#;"><i class="nav-icon02"></i>서비스 소개</a></li>
+                            <li><a href="#;"><i class="nav-icon03"></i>광고문의</a></li>
+                            <li><a href="#;"><i class="nav-icon04"></i>방역 인사이트</a></li>
+                        </ul>
+                    </div>
+                    <a href="#;">모두의 방역 바로가기<i></i></a>
+                </nav>
+            </div>
+        </aside>
+
+        <div class="right-section">
+            <main>
+                <div class="section_title mb-30">
+                    <h2>업체 회원가입</h2>
+                    <span>※ 가입하신 정보로 모두의 방역 로그인이 가능하며, 등록하신 업체 정보는 관리자 승인을 거쳐 업로드됩니다.</span>
+                </div>
+
+                <div class="title-box">
+                    <div class="box-title">
+                        <p>필수정보</p>
+                    </div>
+
+                    <div class="necessary_info_wrap d-flex">
+                        <div class="leftcon">
+                            <div class="email-box mb-10">
+                                <p class="mb-10">이메일 주소 ( 아이디로 사용 )</p>
+                                <div class="box-custom"><input type="text" placeholder="예 ) bsy1386@tideflo.com"><a
+                                        href="#;" class="btn-blue">이메일 인증</a></div>
+                            </div>
+
+                            <div class="tel-box">
+                                <p class="mb-10">전화번호</p>
+                                <div class="box-custom"><input type="text" placeholder="예) 01012345678"></div>
+                            </div>
+                        </div>
+
+                        <div class="rightcon">
+                            <div class="name-box pl-20 mb-10">
+                                <p class="mb-10">이름 </p>
+                                <div class="box-custom"><input type="text" placeholder="예 ) 홍길동"></div>
+                            </div>
+
+                            <div class="pw-box pl-20">
+                                <p class="mb-10">비밀번호</p>
+                                <div class="box-custom mb-10"><input type="text"
+                                        placeholder="6~16자, 영문, 숫자, 특수문자 (-!@#$%^&*.,)"></div>
+                                <div class="box-custom"><input type="text" placeholder="비밀번호를 다시 한 번 입력"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="title-box">
+                    <div class="box-title">
+                        <p>업체정보</p>
+                    </div>
+
+                    <div class="company_info_wrap d-flex d-flex-wrap">
+                        <div class="leftcon">
+                            <div class="cname-box mb-10">
+                                <p class="mb-10">업체명</p>
+                                <div class="box-custom d-w-full"><input type="text" placeholder="예 ) 타이드플로, TideFlo"></div>
+                            </div>
+
+                            <div class="address-box">
+                                <p class="mb-10">업체 주소</p>
+                                <div class="box-custom mb-10"><input type="text" placeholder="예) 가산디지털1로 225"><a href="#;" class="btn-blue">검색</a></div>
+                                <div class="box-custom"><input type="text" placeholder="예) 상세주소"></div>
+                            </div>
+                        </div>
+
+                        <div class="rightcon">
+                            <div class="tel-box pl-20 mb-10">
+                                <p class="mb-10">전화번호 </p>
+                                <div class="box-custom"><input type="text" placeholder="예 ) 0212345678"></div>
+                            </div>
+
+                            <div class="picture-box pl-20">
+                                <p class="mb-10">업체사진</p>
+                                <div class="box-custom mb-10"><input type="text"
+                                        placeholder="ex) 로고사진, 방역사진 등"></div>
+                                <span>※ 사진은 최대 5개까지 올리실 수 있습니다. (jpg, png, jpeg..)</span>
+                            </div>
+                        </div>
+                        <div class="company-check mt-10">
+                            <input type="radio" id="a01">
+                            <label for="a01">전체 선택</label>
+    
+                            <input type="radio" id="a02">
+                            <label for="a02">코로나방역</label>
+    
+                            <input type="radio" id="a03">
+                            <label for="a03">소독</label>
+    
+                            <input type="radio" id="a04">
+                            <label for="a04">방제</label>
+    
+                            <input type="radio" id="a05">
+                            <label for="a05">소독업 허가</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="title-box">
+                    <div class="box-title">
+                        <p>인증정보 <span>※ 선택사항으로, 지금 등록하지 않으셔도 추후 업로드 가능합니다.</span></p>
+                    </div>
+
+                    <div class="certification_info_wrap d-flex d-flex-wrap">
+                        <div class="leftcon">
+                            <div class="certification-tel-box">
+                                <p class="mb-10">사업자번호</p>
+                                <div class="box-custom d-w-full"><input type="text" placeholder="사업자번호"><a href="#;" class="btn-blue">사업자 등록 인증</a></div>
+                            </div>
+
+                        </div>
+
+                        <div class="rightcon">
+                            <div class="certification-permission-box pl-20">
+                                <p class="mb-10">소독업 허가서 </p>
+                                <div class="box-custom"><input type="file" placeholder="소독업 허가서"><a href="#;" class="btn-gray">첨부파일</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-check mt-10">
+                        <p class="mb-10">약관 동의</p>
+                        <input type="checkbox" id="b01">
+                        <label for="b01">전체 동의</label>
+
+                        <input type="checkbox" id="b02">
+                        <label for="b02">서비스 이용약관에 동의</label>
+
+                        <input type="checkbox" id="b03">
+                        <label for="b03">개인정보 수집 및 이용에 동의</label>
+
+                        <input type="checkbox" id="b04">
+                        <label for="b04">위치정보 이용 약관에 동의</label>
+                    </div>
+                </div>
+                <div class="form-submit-btn-box">
+                <a href="#;" class="form-submit-btn btn-blue">회원가입</a>
+            </div>
+        </div>
+        </main>
+    </div>
+    </div>
+</body>
+
+</html>

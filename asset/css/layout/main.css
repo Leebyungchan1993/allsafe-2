@@ -1,0 +1,29 @@
+.right-section{width:calc(100% - 320px); max-width:1280px; padding:10rem 0 0 0;}
+nav .left-nav ul li a .nav-icon01{background-image:url(../../img/common/icon/nav-icon01-on.png);}
+
+.top-title{height:450px; padding:5rem 0 0 16.3rem; background:url(../../img/layout/main-topvisual.png); background-repeat: no-repeat; background-size:442px 450px; background-position: right; box-sizing:border-box;}
+.top-title p{color:#2F36BB}
+.top-title p:nth-child(1){font-size:2.2rem;}
+.top-title p:nth-child(2){font-size:4.8rem;}
+.top-title p:nth-child(3){font-size:1.8rem;}
+.top-title a{margin-top:2rem; color:#fff; height:50px; line-height:50px; font-size:1.6rem; padding:0 20px; background:#2F36BB;}
+.content-title{position:relative; width:100%; background: rgba(47, 54, 187, 5%); height:50px; line-height:50px; color:#2F36BB; font-size:1.8rem; z-index:1; padding-left:2rem;}
+
+.what .what-content div ul{width:100%; display:flex; padding:50px 0;}
+.what .what-content div ul li{width:33.333%; height:354px; padding:30px 0; box-shadow:0px 2px 6px rgba(0, 0, 0, 20%); text-align:center; box-sizing:border-box;}
+.what .what-content div ul li:not(:last-child){margin-right:6rem;}
+.what .what-content div ul li p:nth-child(1){color:#666; font-size:1.8rem;}
+.what .what-content div ul li p:nth-child(2){color:#2f36bb; font-size:4rem;}
+.what .what-content div ul li p:nth-child(3){color:#333; font-size:3.2rem;}
+.what .what-content div ul li p:nth-child(4){color:#666; font-size:1.8rem;}
+
+.why .content-padding{padding:50px 0;}
+.why > div > .why-content{color:#8f8f8f; font-size:1.8rem; width:100%; padding:30px; box-shadow:0px 2px 6px rgba(0, 0, 0, 20%); text-align:left; box-sizing:border-box;}
+
+.desc-content{color:#8f8f8f; font-size:1.8rem; width:100%; padding:30px; box-shadow:0px 2px 6px rgba(0, 0, 0, 20%); text-align:left; box-sizing:border-box;}
+.desc .content-padding{padding:5rem 0 10rem;}
+
+.submit-box{display:flex; justify-content: center;}
+.submit-box .submit-btn{
+    width:300px; height:60px; line-height:60px; background:#2f36bb; color:#fff; margin:0 auto; font-size:2rem; text-align:center; margin:50px 0 100px;
+}

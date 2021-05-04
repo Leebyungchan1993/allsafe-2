@@ -1,0 +1,42 @@
+.box-custom{display:flex; align-items: center;; width:100%; border:1px solid #8f8f8f; box-sizing:border-box; padding-left:2rem;}
+.box-custom input{width:100%; box-sizing:border-box;}
+.box-title{width:100%; background:rgba(47, 54, 187, 5%); box-sizing:border-box;}
+.box-title p{width:100%; font-size:1.8rem; padding:2rem; box-sizing:border-box;}
+.title-box{width:100%;}
+.title-box p{width:100%; font-family:"NSG M"}
+.title-box span{font-family:"NSG R"}
+
+.leftcon{width:50%; box-sizing:border-box;}
+.rightcon{width:50%; box-sizing: border-box;}
+
+.section_title h2{font-size:3.6rem; color:#2f36bb; padding-bottom:5rem; margin-top:0;}
+.section_title span{color:#333; font-size:1.8rem;}
+
+.necessary_info_wrap{padding:3rem 0;}
+.necessary_info_wrap p{font-size:1.8rem;}
+
+.company_info_wrap{padding:3rem 0;}
+.company_info_wrap p{font-size:1.8rem;}
+.company-check{display:flex; align-items: center; width:100%;}
+.company-check input[type="radio"]{display:none;}
+.company-check label{background-image: url(../../img/common/button/checkbtn-off.png); background-repeat: no-repeat; background-position:left center; padding-left:30px; margin-right:20px; font-size:1.8rem;}
+.company-check input[type="radio"]:checked + label{background-image: url(../../img/common/button/checkbtn-on.png);}
+
+.certification_info_wrap{padding:3rem 0;}
+.certification_info_wrap p{font-size:1.8rem;}
+.certification-check{width:100%;}
+.certification-check input[type="checkbox"]{display:none;}
+.certification-check label{display:block; width:100%; background-image: url(../../img/common/button/checkbtn-off.png); background-repeat: no-repeat; background-position:left center; padding-left:30px; margin-right:20px; margin-bottom:1rem; font-size:1.8rem;}
+
+.picture-box span{font-size:1.8rem;}
+.certification-check input[type="checkbox"]:checked + label{background-image: url(../../img/common/button/checkbtn-on.png);}
+.certification-check p{font-size:1.8rem;}
+
+.form-submit-btn-box{display:flex; justify-content: center; margin-top:4.6rem;}
+.form-submit-btn{min-width:280px; height:60px; line-height:60px; text-align:center; font-size:2rem;}
+
+/* 버튼 크기 css */
+.email-box a{min-width:130px; text-align:center; font-size:1.8rem;}
+.address-box a{min-width:80px; text-align:center; font-size:1.8rem;}
+.certification-tel-box a{min-width:170px; text-align:center; font-size:1.8rem;}
+.certification-permission-box div a{min-width:120px; text-align:center; font-size:1.8rem;}
